@@ -28,7 +28,7 @@ eureka:
   client: #客户端注册进eureka服务器内
     service-url:
       #单机版
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     instance-id: dept-8001.com #修改服务别名
     prefer-ip-address: true #访问路径可以显示ip地址
@@ -65,7 +65,7 @@ eureka:
   client: #客户端注册进eureka服务器内
     service-url:
       #单机版
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     instance-id: dept-8001.com #修改服务别名
     prefer-ip-address: true #访问路径可以显示ip地址
