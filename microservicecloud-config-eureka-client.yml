@@ -3,7 +3,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-eureka-clien
+    name: microservicecloud-config-eureka-client
 
 eureka:
   instance:
